@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 01 JS</title>
+    <style>
+        body {
+            /* ISSO É UM COMENTÁRIO EM CSS */
+            background-color: rgb(47, 0, 255);
+            color: aliceblue;
+            font: normal 25pt Times New Roman;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Hello, World!</h1> <!-- ISSO É UM COMENTÁRIO EM HTML-->
+    <p>Aprendendo JavaScript</p>
+    <script>
+        //***************COMENTÁRIOS POR MEIO DE BARRAS*****************
+        /*COMENTÁRIOS COM MAIS DE UMA LINHA DE CÓDIGO POR MEIO DE BARRAS E ASTERISTICOS*/
+        // (number + number = adição)
+        // (string + string) = concatenação
+        // Number.parseInt = NÚMERO INTEIRO
+        // Number.parseFloat = NÚMERO REAL (5.5)
+        // Number = TUDO
+
+        /* FORMATANDO STRINGS
+
+        SINTAXES:
+        
+        `Aaaa ${variável}` OU 'aaa' + variável + 'aaa' + variável + 'aaa'
+        
+        EXEMPLOS:
+        > var nome = 'Emanon'
+        > var idade = 66
+        > var nota = 5.5
+        > 'A aluna ' + nome + ' de ' + idade + ' anos, tirou ' + nota + ' na prova final.'
+        'A aluna Emanon de 66 anos, tirou 5.5 na prova final.'
+        > `A aluna ${nome} de ${idade} anos tirou ${nota} na prova `
+        'A aluna Emanon de 66 anos tirou 5.5 na prova '*/
+
+        var n1 = Number(window.prompt('Digite um número: '))
+        var n2 = Number(window.prompt('Digite outro número: '))
+        var s = n1 + n2
+        //window.alert('A soma dos números é ' + s)
+        window.alert(`A soma entre o número ${n1} e o número ${n2} é igual a ${s}`)
+
+
+
+    </script>
+</body>
+
+</html>
