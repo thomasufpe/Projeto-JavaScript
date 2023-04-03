@@ -1,2 +1,2 @@
 # Projeto JavaScript
- Aprendendo JavaScript
+ Aprendendo a programar em JavaScript.
